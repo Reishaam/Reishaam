@@ -24,16 +24,9 @@ PowerShell (avancé) · Bash · Python *(en apprentissage)* · Ansible *(en appr
 Cisco CCNP Core · Cisco Network Security · CCNA · WireGuard · Pi-hole / AdGuard
 
 ## 🧪 HomeLab
+J'opère une infrastructure auto-hébergée qui me sert de terrain d'apprentissage continu : un cluster Proxmox à deux nœuds avec K3s déployé via Helm, OPNsense pour le routage et la segmentation VLAN, une stack d'observabilité kube-prometheus-stack, un NAS sous OpenMediaVault et divers services conteneurisés. C'est aussi un choix assumé en faveur de la souveraineté technique — opérer ses propres briques plutôt que de tout déléguer à des SaaS propriétaires.
 
-J'opère une infrastructure auto-hébergée qui me sert de terrain
-d'apprentissage continu : un cluster Proxmox avec K3s déployé via Helm,
-une stack d'observabilité kube-prometheus-stack, un NAS sous OpenMediaVault
-et divers services conteneurisés. C'est aussi un choix assumé en faveur de
-la souveraineté technique — opérer ses propres briques plutôt que de tout
-déléguer à des SaaS propriétaires.
-
-Les repos publics ci-dessous documentent progressivement cette stack.
-*(En cours de structuration — premiers repos en ligne sous peu.)*
+📂 Premier échantillon public : **[homelab-runbooks](https://github.com/Reishaam/homelab-runbooks)** — runbooks opérationnels avec architecture, validation, et écarts constatés. Le reste de la documentation (ADRs, post-mortems, infra-state) reste dans mon Forgejo privé.
 
 ## 📜 Certifications
 
@@ -44,5 +37,5 @@ Les repos publics ci-dessous documentent progressivement cette stack.
 
 ## 📫 Contact
 
-[LinkedIn](https://www.linkedin.com/in/julien-guichard-geronimi-b857941a2/) ·
+[LinkedIn](https://www.linkedin.com/in/julien-guichard-geronimi/) ·
 basé à Lyon, ouvert au télétravail
